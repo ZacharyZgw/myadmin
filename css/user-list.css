@@ -1,0 +1,46 @@
+body{
+	font-family: "Microsoft YaHei","黑体","宋体",sans-serif;
+	padding-top: 50px;
+}
+nav #nav-header{
+	margin: 0;
+}
+.navbar-default .navbar-brand {
+    color: #40d2b1;
+    font-size: 28px;
+}
+.rol-padding-top25{
+	padding-top: 25px;
+}
+.nav-border-buttom{
+	border: 1px solid #ccc;
+}
+.page-header{
+	margin-top: 0;
+}
+.page-header h1{
+	margin: 0;
+	font-size: 16px;
+}
+.float-right{
+	float: right;
+    position: relative;
+    right: 150px;
+}
+
+.form_usersearch_style{
+	padding: 10px;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+.taglist{
+	padding-top: 15px;
+}
+.taglist .alert{
+	margin: 0 15px 15px 0;
+}
+footer{
+	text-align: center;
+	font-weight: bold;
+	padding: 40px 0;
+}

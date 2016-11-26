@@ -1,0 +1,36 @@
+body{
+	font-family: "Microsoft YaHei","黑体","宋体",sans-serif;
+	padding-top: 50px;
+}
+nav #nav-header{
+	margin: 0;
+}
+.navbar-default .navbar-brand {
+    color: #40d2b1;
+    font-size: 28px;
+}
+#message{
+	margin-top: 20px;
+}
+/* 进度条下边距 */
+.progress {
+    margin-bottom: 15px;
+}
+/* 留言板 */
+.media {
+    border: 1px solid #e3e3e3;
+}
+/* 头像专用 */
+.wh64{
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+}
+.btn-margin{
+	margin-top: 15px;
+}
+footer{
+	text-align: center;
+	font-weight: bold;
+	padding: 40px 0;
+}

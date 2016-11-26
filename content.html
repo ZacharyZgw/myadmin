@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Title Page</title>
+		<!-- Bootstrap CSS -->
+		<link href="http://bootswatch.com/slate/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/user-list.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top" id="nav-header">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle " data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a href="index.html" class="navbar-brand">Zgw Admin</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index.html"><i class="fa fa-home"></i>&nbsp;home</a></li>
+						<li><a href="user_list.html"><i class="fa fa-user"></i>&nbsp;User Admin</a></li>
+						<li><a href="content.html"><i class="fa fa-file"></i>&nbsp;Content Admin</a></li>
+						<li><a href="tag.html"><i class="fa fa-hashtag"></i>&nbsp;Tag</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="" class="dropdown-toggle"  id="dropdownMenu1" data-toggle="dropdown">
+								Admin
+								<i class="fa fa-chevron-down" aria-hidden="true"></i>
+							</a>
+							<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-anchor" aria-hidden="true"></i>&nbsp;前台首页</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;个人首页</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-cog" aria-hidden="true"></i>&nbsp;个人设置</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-rocket" aria-hidden="true"></i>&nbsp;账户中心</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-heart" aria-hidden="true"></i>&nbsp;我的收藏</a></li>
+							</ul>
+						</li>
+						<li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>&nbsp;Sing out</a></li>
+					</ul>
+				</div>
+				
+			</div>
+		</nav>
+		<div class="container">
+			<div class="row rol-padding-top25">
+				<div class="col-md-2">
+					<ul class="nav nav-pills nav-stacked" role="tablist">
+						<li role="presentation" class="nav-border-buttom active"><a href="#">内容管理</a></li>
+						<li role="presentation" class="nav-border-buttom"><a href="content_post.html">添加内容</a></li>
+					</ul>
+				</div>
+				<div class="col-md-10">
+					<div class="page-header">
+						<h1>内容管理</h1>
+					</div>
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="user_list.html">内容管理</a></li>
+					</ul>
+					<table class="table table-striped table-hover">
+						<thead>
+							<tr>
+								<th>文章标题</th>
+								<th>作者</th>
+								<th>发布时间</th>
+								<th>操作</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">巴塞电影</th>
+								<td>张三</td>
+								<td>2016/11/19</td>
+								<td>
+									<div role="presentation" class="dropdown">
+										<button class=" btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
+										操作<span class="caret"></span>
+										</button>
+										<ul class="dropdown-menu" role="menu">
+											<li><a href="#">修改</a></li>
+											<li><a href="#">删除</a></li>
+											<li><a href="#">修改</a></li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">在文本中嵌入关于图像、表格和文本的 CSV 文件</th>
+								<td>张三</td>
+								<td>2016/11/19</td>
+								<td>
+									<div role="presentation" class="dropdown">
+										<button class=" btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
+										操作<span class="caret"></span>
+										</button>
+										<ul class="dropdown-menu" role="menu">
+											<li><a href="#">修改</a></li>
+											<li><a href="#">删除</a></li>
+											<li><a href="#">修改</a></li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row"> 打开声音，然后按一下按钮 </th>
+								<td>张三</td>
+								<td>2016/11/19</td>
+								<td>
+									<div role="presentation" class="dropdown">
+										<button class=" btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
+										操作<span class="caret"></span>
+										</button>
+										<ul class="dropdown-menu" role="menu">
+											<li><a href="#">修改</a></li>
+											<li><a href="#">删除</a></li>
+											<li><a href="#">修改</a></li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row"> 年轻态，睡眠助眠向内容平台 </th>
+								<td>张三</td>
+								<td>2016/11/19</td>
+								<td>
+									<div role="presentation" class="dropdown">
+										<button class=" btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
+										操作<span class="caret"></span>
+										</button>
+										<ul class="dropdown-menu" role="menu">
+											<li><a href="#">修改</a></li>
+											<li><a href="#">删除</a></li>
+											<li><a href="#">修改</a></li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">一款学习交流家电维修技术的应用</th>
+								<td>张三</td>
+								<td>2016/11/19</td>
+								<td>
+									<div role="presentation" class="dropdown">
+										<button class=" btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
+										操作<span class="caret"></span>
+										</button>
+										<ul class="dropdown-menu" role="menu">
+											<li><a href="#">修改</a></li>
+											<li><a href="#">删除</a></li>
+											<li><a href="#">修改</a></li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row"> 来自最火的 Dribbble Shots 的配色灵感 </th>
+								<td>张三</td>
+								<td>2016/11/18</td>
+								<td>
+									<div role="presentation" class="dropdown">
+										<button class=" btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
+										操作<span class="caret"></span>
+										</button>
+										<ul class="dropdown-menu" role="menu">
+											<li><a href="#">修改</a></li>
+											<li><a href="#">删除</a></li>
+											<li><a href="#">修改</a></li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row"> 利用预设的选项快速制定提醒，有效管理时间 </th>
+								<td>张三</td>
+								<td>2016/11/18</td>
+								<td>
+									<div role="presentation" class="dropdown">
+										<button class=" btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
+										操作<span class="caret"></span>
+										</button>
+										<ul class="dropdown-menu" role="menu">
+											<li><a href="#">修改</a></li>
+											<li><a href="#">删除</a></li>
+											<li><a href="#">修改</a></li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<nav class="float-right">
+						<ul class="pagination">
+							<li ><a href="#">&laquo;</a></li>
+							<li class="active"><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li><a href="#">&raquo;</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<footer >
+			<div class="container">
+				<div class="col-md-12">
+					<p>
+						Copyright © &nbsp 2015-2016 Zhangguowei some rights reserved
+					</p>
+				</div>
+			</div>
+		</footer>
+		<!-- jQuery -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+	</body>
+</html>
